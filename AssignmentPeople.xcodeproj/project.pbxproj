@@ -24,8 +24,10 @@
 		DC1E41802472B2F80056518B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC1E417E2472B2F80056518B /* LaunchScreen.storyboard */; };
 		DC1E418B2472B2F80056518B /* AssignmentPeopleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1E418A2472B2F80056518B /* AssignmentPeopleTests.swift */; };
 		DC1E419A2472B64E0056518B /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1E41992472B64E0056518B /* APIManager.swift */; };
+		DC3E44EA247518E800ACD906 /* JSONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3E44E9247518E800ACD906 /* JSONTests.swift */; };
 		DC597FE32473BBE400259729 /* MAPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC597FE22473BBE400259729 /* MAPViewController.swift */; };
 		DC597FE52473CABF00259729 /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC597FE42473CABF00259729 /* WebViewViewController.swift */; };
+		DC73CF1924751AAD00A22C6A /* Lunch.json in Resources */ = {isa = PBXBuildFile; fileRef = DC73CF1824751AAD00A22C6A /* Lunch.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,8 +62,10 @@
 		DC1E418A2472B2F80056518B /* AssignmentPeopleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentPeopleTests.swift; sourceTree = "<group>"; };
 		DC1E418C2472B2F80056518B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC1E41992472B64E0056518B /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		DC3E44E9247518E800ACD906 /* JSONTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONTests.swift; sourceTree = "<group>"; };
 		DC597FE22473BBE400259729 /* MAPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAPViewController.swift; sourceTree = "<group>"; };
 		DC597FE42473CABF00259729 /* WebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewViewController.swift; sourceTree = "<group>"; };
+		DC73CF1824751AAD00A22C6A /* Lunch.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Lunch.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,7 @@
 		DC1E41672472B2F60056518B = {
 			isa = PBXGroup;
 			children = (
+				DC73CF1824751AAD00A22C6A /* Lunch.json */,
 				DC11EC5B2472E2D500880E17 /* Constants.swift */,
 				DC1E41722472B2F60056518B /* AssignmentPeople */,
 				DC1E41892472B2F80056518B /* AssignmentPeopleTests */,
@@ -122,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				DC1E418A2472B2F80056518B /* AssignmentPeopleTests.swift */,
+				DC3E44E9247518E800ACD906 /* JSONTests.swift */,
 				DC1E418C2472B2F80056518B /* Info.plist */,
 			);
 			path = AssignmentPeopleTests;
@@ -248,6 +254,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC73CF1924751AAD00A22C6A /* Lunch.json in Resources */,
 				DC1E41802472B2F80056518B /* LaunchScreen.storyboard in Resources */,
 				DC1E417D2472B2F80056518B /* Assets.xcassets in Resources */,
 				DC1E417B2472B2F60056518B /* Main.storyboard in Resources */,
@@ -291,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC1E418B2472B2F80056518B /* AssignmentPeopleTests.swift in Sources */,
+				DC3E44EA247518E800ACD906 /* JSONTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
