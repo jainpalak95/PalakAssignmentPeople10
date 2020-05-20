@@ -30,9 +30,7 @@ struct Constants{
   struct ImageName{
     static let placeholder = "placeholder"
   }
-  struct TblCellStr{
-    static let cell = "cell"
-  }
+  
   
 }
 
